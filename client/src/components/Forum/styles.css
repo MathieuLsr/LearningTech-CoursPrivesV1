@@ -1,0 +1,57 @@
+.changepassword {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    margin: auto; /* Centre le formulaire horizontalement */
+}
+
+.change {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacement vertical entre les champs */
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="password"],
+button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.post-input {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.post-input label {
+margin-right: 10px;
+}
+
+.post-input input,
+.post-input textarea {
+flex: 1;
+}
+
+.post-input input {
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+.post-input textarea {
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;
+resize: vertical;
+min-height: 80px;
+}
